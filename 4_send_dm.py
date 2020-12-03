@@ -27,4 +27,4 @@ class chatbot(discord.Client):
 
 if __name__ == "__main__":
     client = chatbot()
-    client.run("Your Discord Bot Token")
+    client.run("Nzg0MDE2NDk4NTE5NDQxNDM4.X8jKQw.YRmon13QBqGm9LG7fFs6ME0L2g8")

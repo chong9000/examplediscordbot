@@ -9,7 +9,7 @@ class chatbot(discord.Client):
         print("READY")
 
         # 봇이 로딩되면 특정인에게 DM을 보냄
-        author = await client.get_user("Your ID").create_dm()
+        author = await client.get_user("693760626001969182").create_dm()
         await author.send("on_ready가 호출되었습니다.")
 
     # 봇에 메시지가 오면 수행 될 액션
